@@ -9,7 +9,6 @@ async function authenticateSAMLIncorrect(user: string, password: string): boolea
 }
 
 
-/**x/
 async function authenticateSAMLCorrect(user: string, password: string): Promise<boolean> {
     return new Promise<boolean>((resolve) => {
         setTimeout(() => { // simulate waiting for the server
@@ -17,7 +16,6 @@ async function authenticateSAMLCorrect(user: string, password: string): Promise<
         }, 1000);
     })
 }
-/**/
 
 export function authenticate(user, password, method){
     switch(method){
