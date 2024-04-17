@@ -2,7 +2,8 @@ function authenticateLocal(user: string, password: string): boolean {
     return (user === 'john' && password === 'correct')
 }
 
-async function authenticateSAMLIncorrect(user: string, password: string): boolean {
+async function authenticateSAML
+(user: string, password: string): boolean {
     setTimeout(() => { // simulate waiting for the server
         return (user === 'john' && password === 'correct')
     }, 1000);
