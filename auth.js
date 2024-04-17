@@ -1,10 +1,10 @@
 function authenticateLocal(user, password){
-    return (user === 'john' && password === 'hunter2')
+    return (user === 'john' && password === 'correct')
 }
 
 async function authenticateSAML(user, password){
     setTimeout(() => { // simulate waiting for the server
-        return (user === 'john' && password === 'hunter2')
+        return (user === 'john' && password === 'correct')
     }, 1000);
 }
 

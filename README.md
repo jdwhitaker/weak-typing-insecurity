@@ -1,1 +1,1 @@
-# how-js-makes-security-hard
+# weak-typing-insecurity
